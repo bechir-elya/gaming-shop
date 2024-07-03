@@ -1,0 +1,979 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*HEADER*/
+
+.brandLogo {
+  width: 30%;
+}
+
+.navbar-text {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -20%;
+  right: -50%;
+  bottom: 70%;
+  left: 50%;
+}
+
+.profilePic {
+  width: 10%;
+  border-radius: 50%;
+}
+
+/*HEADER*/
+
+
+/*HOME PAGE*/
+
+.section1 {
+  background-image: url('./assets/about-img/jinx.webp');
+  background-position: center;
+}
+
+.homePageTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  width: 45%;
+  margin-bottom: 3%;
+}
+
+.btn.btn-warning {
+  padding: 1%;
+  width: 15%;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(85, 126, 182, 255), rgba(50, 58, 104, 255), rgba(185, 49, 160, 255));
+  border: none;
+  margin-bottom: 5%;
+}
+
+.btn.btn-warning a {
+  text-decoration: none;
+  color: white;
+}
+
+.section2 {
+  background-image: url('https://wallpapercave.com/wp/wp2661659.jpg');
+  background-position: center;
+  padding: 2%;
+  color: white;
+}
+
+.section2 .btn.btn-outline-warning a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.picBlock {
+  position: relative;
+}
+
+.gaminGirl {
+  border-radius: 10px;
+}
+
+.experiences {
+  position: absolute;
+  top: -5%;
+  bottom: 0;
+  left: 70%;
+  right: 0;
+}
+
+.ten {
+  position: absolute;
+  top: 7%;
+  bottom: 0;
+  left: 33%;
+  right: 0;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.spinImg {
+
+  @-webkit-keyframes rotating
+
+  /* Safari and Chrome */
+    {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .rotating {
+    -webkit-animation: rotating 120s linear infinite;
+    -moz-animation: rotating 120s linear infinite;
+    -ms-animation: rotating 120s linear infinite;
+    -o-animation: rotating 120s linear infinite;
+    animation: rotating 120s linear infinite;
+  }
+}
+
+.gaminMan {
+  border-radius: 10px;
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+}
+
+.diamonds {
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 25%;
+  width: 40%;
+}
+
+.section2 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 80%;
+  margin-bottom: 3%;
+}
+
+.section2 span {
+  color: #ffc010;
+}
+
+.section2 p {
+  margin-bottom: 4%;
+}
+
+.trait {
+  margin-bottom: 3%;
+}
+
+.check {
+  list-style: none;
+  padding: 0;
+}
+
+
+.btn.btn-outline-warning {
+  padding: 2%;
+  width: 30%;
+  margin-top: 4%;
+}
+
+.services-box {
+  margin-top: 30%;
+  background-color: #2e3d6a1f;
+  padding: 8%;
+  border: 1px solid #ffc010;
+  border-radius: 10px;
+}
+
+
+.services-box .boxIcons {
+  font-size: 40px;
+  margin-right: 5%;
+  color: #ffc010;
+}
+
+.section3 {
+  background-image: url('https://wallpapercave.com/wp/wp11471508.png');
+  background-position: center;
+}
+
+.trendingGames {
+  font-weight: bold;
+  color: white;
+}
+
+.trendingGames span {
+  color: #ffc010;
+}
+
+.card {
+  background-image: linear-gradient(rgba(43, 24, 76, 255), rgba(124, 129, 249, 255), rgba(201, 183, 231, 255));
+}
+
+.card-img-top {
+  width: 100%;
+  height: 400px;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.section4 {
+  background-image: url('https://wallpapercrafter.com/sizes/1920x1080/143323-keyboards-tech-dark-numbers-red.jpg');
+  padding: 9%;
+}
+
+.section4 h3 {
+  margin-bottom: 2%;
+}
+
+.section4 span {
+  color: #fb2834;
+}
+
+.section4 p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.section4 button {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 5px;
+  width: 15%;
+  padding: 1%;
+  background-image: linear-gradient(rgba(7, 13, 73, 255), rgba(107, 10, 12, 255), rgba(241, 60, 68, 255));
+  border: none;
+}
+
+.section4 button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*HOME PAGE*/
+
+
+
+/*ABOUT US*/
+
+.aboutUsSection1 {
+  background-color: black;
+  color: white;
+}
+
+.gamingSets {
+  position: relative;
+}
+
+.gSet2 {
+  position: absolute;
+  top: 56%;
+  bottom: 0;
+  left: -40%;
+  right: 0;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.gSet1 {
+  border-radius: 5px;
+}
+
+.aboutUsSection2 {
+  background-color: black;
+  color: white;
+}
+
+.teamBlock {
+  position: relative;
+  margin-top: 5%;
+}
+
+.teamPic {
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #e28743;
+}
+
+.memberDescription {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #e28743;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*ABOUT US*/
+
+
+
+/*CONTACT PAGE*/
+
+.bg-Map {
+  background-image: url('https://reactdemo-eoorox.soyonexpress.com/static/media/map-contact.34cff14b1bc28ca8cbb2.png');
+  background-position: center;
+  background-size: cover;
+  padding: 30%;
+  background-color: #220f3c;
+}
+
+
+.contactForm {
+  background-color: #220f3c;
+}
+
+.col1.col {
+  color: white;
+}
+
+.col1.col span {
+  color: #ffc010;
+}
+
+.col1.col ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.theForm {
+  color: white;
+}
+
+.theForm span {
+  color: #ffc010;
+}
+
+/*CONTACT PAGE*/
+
+
+/*LOGIN PAGE*/
+
+.loginMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #220f3c;
+}
+
+.loginContainer {
+  position: relative;
+  width: 256px;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer span {
+  position: absolute;
+  left: 0;
+  width: 32px;
+  height: 6px;
+  background: #2c4766;
+  border-radius: 8px;
+  transform-origin: 128px;
+  transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+  animation: animateBlink 3s linear infinite;
+  animation-delay: calc(var(--i) * (3s / 50));
+}
+
+@keyframes animateBlink {
+  0% {
+    background: #537eb6;
+  }
+
+  25% {
+    background: #323b6c;
+  }
+}
+
+.login-box {
+  position: absolute;
+  width: 400px;
+}
+
+.login-box form {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.loginH2 {
+  font-size: 2em;
+  color: #537eb6;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  margin: 25px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #2c4766;
+  outline: none;
+  border-radius: 40px;
+  font-size: 1em;
+  color: #fff;
+  padding: 0 20px;
+  transition: .5s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #0ef;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s ease;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+  top: 1px;
+  font-size: .8em;
+  background: #1f293a;
+  padding: 0 6px;
+  color: #0ef;
+}
+
+.forgot-pass {
+  margin: -15px 0 10px;
+  text-align: center;
+}
+
+.forgot-pass a {
+  font-size: .85em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.forgot-pass a:hover {
+  text-decoration: underline;
+}
+
+.loginBtn {
+  width: 100%;
+  height: 45px;
+  background: #0ef;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #1f293a;
+  font-weight: 600;
+}
+
+.signup-link {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+.signup-link a {
+  font-size: 1em;
+  color: #0ef;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/*LOGIN PAGE*/
+
+
+/*REGISTER PAGE*/
+
+.registerPage {
+  background-color: #220f3c;
+  padding: 2%;
+}
+
+.registerLeft {
+  background-image: url('https://img.freepik.com/premium-vector/dark-hexagon-gaming-abstract-vector-background-with-colored-bright-flashes_156943-1522.jpg');
+  position: relative;
+}
+
+.registerLeft img {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  bottom: 0;
+  left: 19%;
+}
+
+
+.registerRight {
+  background-color: #070304;
+  color: white;
+}
+
+.registerRight .titles {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.registerRight .form-control {
+  margin-bottom: 4%;
+}
+
+.dateOfBirth {
+  display: block;
+  margin-bottom: 4%;
+  width: 100%;
+  padding: 1%;
+  border: 1px solid;
+  border-color: #dee2e6;
+  border-radius: 5px;
+}
+
+.registerRight .btn.btn-primary {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.profilePicBtn {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+/*REGISTER PAGE*/
+
+
+
+/*PRODUCT CARD*/
+
+.productImg {
+  width: 100%;
+  height: 300px;
+}
+
+.card-title.h5 {
+  font-size: 1rem;
+}
+
+.cardHover {
+  position: relative
+}
+
+.overLay {
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  top: 92%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: .5 ease;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.cardHover:hover .overLay {
+  opacity: 1;
+
+}
+
+.text {
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding-top: 2%;
+}
+
+
+.productPics {
+  width: 100%;
+  height: 420px;
+}
+
+/*PRODUCT CARD*/
+
+
+/*SHOP PAGE*/
+
+.shopPage {
+  padding: 2%;
+}
+
+.topCarousel.carousel.slide {
+  width: 90%;
+  margin: auto;
+}
+
+.topCarousel.carousel.slide .carousel-indicators {
+  display: none;
+}
+
+.topCarousel.carousel.slide img {
+  width: 100%;
+  height: 440px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.firstImg {
+  position: relative;
+}
+
+.dreamPC {
+  border: 1px solid green;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1%;
+  width: 20%;
+  height: 230px;
+  background-color: #07030470;
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  bottom: 0;
+  left: 5%;
+}
+
+/*SHOPPAGE*/
+
+
+/*SHOP CART*/
+
+.trashNcount {
+  position: relative;
+}
+
+.trash {
+  position: absolute;
+  top: -120%;
+  right: 0;
+  bottom: 0;
+  left: 70%;
+
+  cursor: pointer;
+}
+
+
+.product {
+  padding-top: 4%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.clearCart {
+  padding: 1%;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid;
+}
+
+.clearCart:hover {
+  color: red;
+}
+
+.paymentBtn {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #ffc010;
+  background-color: white;
+  color: #ffc010;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.paymentBtn:hover {
+  background-color: #ffc010;
+  color: #070304;
+}
+
+/*SHOP CART*/
+
+
+/*FORGOT PASSWORD*/
+
+.forgotPasswordPage {
+  padding-top: 2%;
+  padding-bottom: 18%;
+  background-color: #220f3c;
+}
+
+.forgotPasswordPage button {
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  width: 15%;
+  padding: 1%;
+  border: 1px solid #ffc017;
+  border-radius: 5px;
+  background-color: #220f3c;
+  color: #ffc017;
+}
+
+.forgotPasswordPage button:hover {
+  background-color: #ffc017;
+  color: #070304;
+}
+
+
+.passForm {
+  color: white;
+  width: 40%;
+  margin: auto;
+}
+
+.text-muted {
+  color: white !important;
+}
+
+.linkMessage {
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #1979a9;
+}
+
+
+.errorMessage {
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #1979a9;
+}
+
+
+/*FORGOT PASSWORD*/
+
+
+/*RESET PASSWORD*/
+
+.resetPasswordPage {
+  background-color: #220f3c;
+  padding-top: 2%;
+  padding-bottom: 7.7%;
+}
+
+.passForm {
+  width: 40%;
+}
+
+.resetPasswordPage button {
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  width: 25%;
+  padding: 1%;
+  border: 1px solid #ffc017;
+  border-radius: 5px;
+  background-color: #220f3c;
+  color: #ffc017;
+}
+
+.resetPasswordPage button:hover {
+  background-color: #ffc017;
+  color: #070304;
+}
+
+/*RESET PASSWORD*/
+
+
+/*PROFILE PAGE*/
+
+.profilePage {
+  background-color: #220f3c;
+  color: white;
+  padding: 2%;
+}
+
+.profilePage .container {
+  border: 1px solid #8b2278;
+  border-radius: 5px;
+}
+
+.profilePage h5 {
+  color: #ffc010;
+  font-size: 2rem;
+}
+
+.profilePage p {
+  font-size: 1.2rem;
+}
+
+.colImg {
+  background-image: url('https://i.pinimg.com/originals/84/d8/fa/84d8fa884a0b774fc3bcafeae21c2af4.jpg');
+  position: relative;
+  margin-right: 2%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.avatar img {
+  position: absolute;
+  top: 16%;
+  right: 0;
+  bottom: 0;
+  left: 18%;
+  width: 62%;
+  border-radius: 50%;
+}
+
+.userInfo {
+  margin-bottom: 3%;
+}
+
+.colRight {
+  padding: 1%;
+}
+
+.colRight .form-label {
+  color: #ffc010;
+  font-weight: bold;
+}
+
+.colRight .form-control {
+  margin-bottom: 1%;
+}
+
+
+.updateProfileBtn {
+  border: 1px solid #ffc010;
+  border-radius: 5px;
+  color: white;
+  background-color: #220f3c;
+  width: 100%;
+}
+
+.updateProfileBtn:hover {
+  background-color: #ffc010;
+  color: #070304;
+}
+
+/*PROFILE PAGE*/
+
+
+
+/*CHECKOUT SUCCESS*/
+
+.purchaseSuccess {
+  padding: 2%;
+  background-image: url('https://img.freepik.com/premium-vector/dark-hexagon-gaming-abstract-vector-background-with-colored-bright-flashes_156943-1522.jpg');
+  padding-bottom: 12.6%
+}
+
+.purchaseSuccess .container {
+  position: relative;
+  text-align: center;
+  width: 45%;
+  padding: 1%;
+}
+
+.purchaseSuccess .thanksCol {
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.purchaseSuccess img {
+  width: 100%;
+  position: absolute;
+  top: -17%;
+  right: 0;
+  bottom: 0;
+  left: 10%;
+}
+
+/*CHECKOUT SUCCESS*/
+
+
+
+
+/*FOOTER*/
+
+.foot {
+  background-color: black;
+}
+
+.foot p {
+  color: white;
+}
+
+.foot .fa {
+  color: white;
+  margin-right: 2%;
+}
+
+.yellowLign {
+  background-color: #ffc010;
+  width: 15%;
+  padding: .5%;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  margin-top: 10%;
+}
+
+.socialMedia {
+  font-size: 30px;
+  margin: 5% 2%;
+  color: #ffc010;
+  cursor: pointer;
+}
+
+/*FOOTER*/
